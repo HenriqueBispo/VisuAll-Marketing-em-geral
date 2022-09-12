@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/styleform.css">
+    <script src="https://kit.fontawesome.com/3e3e45cf23.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+        <div id="form">
+
+            <form method="post" autocomplete="off">
+
+                <h2 class="title">Cadastrar</h1>
+                    
+                    <label for="username">Nome empresa</label>
+                    <div class="input">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <input type="text" name="usernamephp" id="username" placeholder="Username" required>
+                    </div>
+                    <label for="tel">Telefone</label>
+                    <div class="input">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" name="telphp" id="tel" placeholder="exemplo: 00000000">
+                    </div>
+
+
+                    <label for="email">Email</label>
+                    <div class="input">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="emailphp" id="email" placeholder="exemplo@gmail.com" required>
+                    </div>
+
+                    <h4><i class="fa-solid fa-building"></i> Tipo de empresa</h4> <br>
+
+                        <input type="radio" name="tipo" id="industria">
+                        <label for="industria">Empresa da indústria</label> <br>
+                        <input type="radio" name="tipo" id="comercio" checked>
+                        <label for="comercio">Empresa de comércio e serviços</label> <br> <br>
+                    
+
+
+                    <h4><i class="fa-solid fa-building"></i> Tamanho da empresa</h4><br>
+
+                   
+                        <input type="radio" name="nomekkk" id="tamanho1" checked>
+                        <label for="tamanho1">Microempresa</label>
+                        <input type="radio" name="nomekkk" id="tamanho2">
+                        <label for="tamanho2">Pequena empresa</label> <br>
+                        <input type="radio" name="nomekkk" id="tamanho3">
+                        <label for="tamanho3">Média empresa</label>
+                        <input type="radio" name="nomekkk" id="tamanho4">
+                        <label for="tamanho4">Grande empresa</label> <br><br>
+                    
+
+                    <label for="cnpj">CNPJ</label>
+                    <div class="input">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" name="cnpjphp" id="cnpj" placeholder="CNPJ" required>
+                    </div>
+
+
+                    <label for="senha">Senha</label>
+                    <div class="input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="senhaphp" id="senha" placeholder="********" min="5" max="20" required>
+                    </div>
+
+
+                    <label for="confsenha">Confirmar senha:</label>
+                    <div class="input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="confsenhaphp" id="confsenha" placeholder="********" min="5" max="20" required>
+                    </div>
+                    <h5><a href="index.htm">Já tem uma conta?</a></h5>
+
+                    <div id="btn"><button id="btn"><a id="criar-conta" href="index.htm">Criar Conta</a></button></div>
+                                   
+
+                    
+            </form>
+
+        </div> 
+</body>
+</html>
