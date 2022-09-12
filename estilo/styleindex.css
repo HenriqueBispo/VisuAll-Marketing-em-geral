@@ -38,6 +38,11 @@ header {
     display: block;
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+
+.a_nav {
+    background-color: rgba(250, 250, 250, 0.1);
 }
 
 .li_nav_menu {
@@ -52,8 +57,11 @@ header {
     border-radius: 10px;
 }
 
-#id_search {
- text-align: right;
+#user {
+    color: var(--color-5);
+    font-size: 40px;
+    padding: 25px;
+    text-align: right;
 }
 
 /*
